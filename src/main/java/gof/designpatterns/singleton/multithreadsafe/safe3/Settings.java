@@ -8,7 +8,7 @@ public class Settings {
     public static final Settings INSTANCE = new Settings();
   }
 
-  private static Settings getInstance() {
+  public static Settings getInstance() {
     return SettingHolder.INSTANCE;
   }
 

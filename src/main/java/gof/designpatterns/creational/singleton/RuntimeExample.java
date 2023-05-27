@@ -1,4 +1,4 @@
-package gof.designpatterns.singleton;
+package gof.designpatterns.creational.singleton;
 
 public class RuntimeExample {
   public static void main(String[] args) {

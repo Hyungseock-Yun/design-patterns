@@ -1,4 +1,4 @@
-package gof.designpatterns.singleton.multithreadsafe.simple;
+package gof.designpatterns.creational.singleton.multithreadsafe.simple;
 
 /**
  * enum으로 만들면 리플렉션으로 절대 뚫을 수 없다.

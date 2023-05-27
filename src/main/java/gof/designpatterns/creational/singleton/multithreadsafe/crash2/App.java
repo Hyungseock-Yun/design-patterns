@@ -1,8 +1,6 @@
-package gof.designpatterns.singleton.multithreadsafe.crash2;
+package gof.designpatterns.creational.singleton.multithreadsafe.crash2;
 
 import java.io.*;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 
 /**
  * 직렬화 & 역직렬화 사용하기

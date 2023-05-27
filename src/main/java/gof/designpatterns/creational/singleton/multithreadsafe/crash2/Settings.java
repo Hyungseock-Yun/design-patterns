@@ -1,4 +1,4 @@
-package gof.designpatterns.singleton.multithreadsafe.crash2;
+package gof.designpatterns.creational.singleton.multithreadsafe.crash2;
 
 import java.io.Serializable;
 

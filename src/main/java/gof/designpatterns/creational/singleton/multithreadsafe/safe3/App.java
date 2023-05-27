@@ -1,4 +1,4 @@
-package gof.designpatterns.singleton.multithreadsafe.safe1;
+package gof.designpatterns.creational.singleton.multithreadsafe.safe3;
 
 public class App {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package gof.designpatterns.singleton.multithreadsafe.crash1;
+package gof.designpatterns.creational.singleton.multithreadsafe.safe3;
 
 public class Settings {
 

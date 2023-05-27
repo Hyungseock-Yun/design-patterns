@@ -1,4 +1,4 @@
-package gof.designpatterns.creational.factory;
+package gof.designpatterns.creational.factory._01_before;
 
 public class ShipFactory {
 

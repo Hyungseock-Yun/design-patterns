@@ -7,4 +7,5 @@
         <constructor-arg value="hello"/>
     </bean>
 
+    <bean id="whiteship" class="gof.designpatterns._01_creational._03_abstract_factory._03_java.ShipFactory"/>
 </beans>

@@ -9,6 +9,14 @@ import java.util.List;
 
 public class DefaultTourBuilder implements TourPlanBuilder {
 
+//    private TourPlan tourPlan;
+//
+//    TourPlanBuilder newInstance() {
+//        this.tourPlan = new TourPlan();
+//        return this;
+//    }
+
+
     private String title;
 
     private int nights;

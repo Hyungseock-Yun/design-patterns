@@ -1,7 +1,7 @@
 package gof.designpatterns._01_creational._05_prototype._02_after;
 
 import gof.designpatterns._01_creational._05_prototype._02_after.GithubIssue;
-import gof.designpatterns._01_creational._05_prototype._01_before.GithubRepository;
+import gof.designpatterns._01_creational._05_prototype._02_after.GithubRepository;
 
 public class App {
 

@@ -8,6 +8,10 @@ public class App {
    * 로직을 추가해야함.
    */
 
+  private boolean enabledSpamFilter;
+
+  private boolean enabledTrimming;
+
   public static void main(String[] args) {
     Client client = new Client(new SpamFilteringCommentService());
     client.writeComment("오징어 게임");

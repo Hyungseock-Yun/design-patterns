@@ -1,4 +1,4 @@
-package gof.designpatterns._02_structural._04_decorator._01_before;
+package gof.designpatterns._02_structural._04_decorator._02_after;
 
 public class Client {
 
@@ -11,5 +11,4 @@ public class Client {
   public void writeComment(String comment) {
     commentService.addComment(comment);
   }
-
 }

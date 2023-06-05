@@ -15,7 +15,8 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-mail'
-    implementation 'org.springframework.data:spring-data-jpa'
+    implementation 'org.springframework.data:spring-data-jdbc'
+    implementation 'org.springframework:spring-aspects'
     implementation 'org.projectlombok:lombok:1.18.26'
     implementation 'com.h2database:h2'
 

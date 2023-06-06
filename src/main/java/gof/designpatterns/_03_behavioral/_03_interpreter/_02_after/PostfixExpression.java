@@ -14,6 +14,10 @@ public interface PostfixExpression {
     return context -> left.interpret(context) - right.interpret(context);
   }
 
+  static PostfixExpression multiply(PostfixExpression left, PostfixExpression right) {
+    return context -> left.interpret(context) * right.interpret(context);
+  }
+
   static PostfixExpression variable(Character c) {
     return context -> context.get(c);
   }

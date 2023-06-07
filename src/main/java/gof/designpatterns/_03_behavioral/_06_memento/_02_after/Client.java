@@ -7,6 +7,7 @@ public class Client {
         game.setBlueTeamScore(10);
         game.setRedTeamScore(20);
 
+        // 스냅샷을 만들 수 있다. (값 보존)
         GameSave gameSave = game.save();
 
         game.setBlueTeamScore(12);

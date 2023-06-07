@@ -7,6 +7,11 @@ import java.util.Map;
 
 public class ChatServer {
 
+    /**
+     * Map 안에 있는 Subscriber는 참조가 되고 있으므로 GC의 대상이 되지 않는다.
+     * 따라서 계속 쌓이다보면 메모리누수가 발생하여 Out of Memory가 발생할 수 있음.
+     * WeakReference 적용
+     */
     private Map<String, List<Subscriber>> subscribers = new HashMap<>();
 
     public void register(String subject, Subscriber subscriber) {

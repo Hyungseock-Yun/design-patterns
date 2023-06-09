@@ -17,7 +17,7 @@ public class Client {
     onlineCourse.addReview("hello", student);
 
     System.out.println(onlineCourse.getState());
-    System.out.println(onlineCourse.getStudent());
+    System.out.println(onlineCourse.getStudents());
     System.out.println(onlineCourse.getReviews());
   }
 }

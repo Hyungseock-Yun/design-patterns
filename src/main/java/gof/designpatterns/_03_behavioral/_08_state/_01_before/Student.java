@@ -1,11 +1,11 @@
 package gof.designpatterns._03_behavioral._08_state._01_before;
 
-import lombok.Data;
+import lombok.ToString;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Data
+@ToString
 public class Student {
 
   private String name;
@@ -23,4 +23,5 @@ public class Student {
   public void addPrivateCourse(OnlineCourse course) {
     this.privateCourses.add(course);
   }
+
 }

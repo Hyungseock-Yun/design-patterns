@@ -1,11 +1,11 @@
 package gof.designpatterns._03_behavioral._08_state._01_before;
 
-import lombok.Data;
+import lombok.Getter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Data
+@Getter
 public class OnlineCourse {
 
   private State state = State.DRAFT;

@@ -1,4 +1,4 @@
-package gof.designpatterns._03_behavioral._10_templatemethod._01_before;
+package gof.designpatterns._03_behavioral._10_template._01_before;
 
 public class Client {
 

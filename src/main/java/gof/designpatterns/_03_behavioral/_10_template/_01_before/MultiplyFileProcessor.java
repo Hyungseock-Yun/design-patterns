@@ -1,14 +1,14 @@
-package gof.designpatterns._03_behavioral._10_templatemethod._01_before;
+package gof.designpatterns._03_behavioral._10_template._01_before;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class FileProcessor {
+public class MultiplyFileProcessor {
 
   private String path;
 
-  public FileProcessor(String path) {
+  public MultiplyFileProcessor(String path) {
     this.path = path;
   }
 
@@ -17,7 +17,7 @@ public class FileProcessor {
       int result = 0;
       String line = null;
       while ((line = reader.readLine()) != null) {
-        result += Integer.parseInt(line);
+        result *= Integer.parseInt(line);
       }
 
       return result;
